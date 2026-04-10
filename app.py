@@ -16,10 +16,10 @@ def home():
         <title>GitOps Demo</title>
       </head>
       <body>
-        <h1>GitOps Demo Application</h1>
+        <h1>GitOps Demo Application 2</h1>
         <p><strong>Version:</strong> {VERSION}</p>
         <p><strong>Pod Hostname:</strong> {HOSTNAME}</p>
-        <p>This app is running on EKS and deployed by Argo CD.</p>
+        <p>This app is running on EKS and ArgoCD running.</p>
       </body>
     </html>
     """

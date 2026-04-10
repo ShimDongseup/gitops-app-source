@@ -33,7 +33,7 @@ jobs:
       - name: Checkout GitOps repository
         uses: actions/checkout@v4
         with:
-          repository: ${{ secrets.GITHUBS_REPO_USERNAME }}/gitops-manifests
+          repository: ${{ secrets.GITOPS_REPO_USERNAME }}/gitops-manifests.git
           token: ${{ secrets.GITOPS_REPO_TOKEN }}
           path: gitops-manifests
 
